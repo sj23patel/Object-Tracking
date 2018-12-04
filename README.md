@@ -18,16 +18,40 @@ When a Gaussian is passed through a non-linear function, it does not remains a G
 4. Compute Gaussian from weighted and transformed points
 5. Compute Mean and Variance of the new Gaussian.
 For detailed information on basic kalman filters and it's working:
-
-[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/22682743/49422066-4fd1e900-f7b8-11e8-9dc7-79d91d11b798.png)](https://youtu.be/CaCcOwJPytQ?list=PLX2gX-ftPVXU3oUFNATxGXY90AULiqnWT "Special Topics - The Kalman Filter (1 of 55) What is a Kalman Filter?")
+<p align="center">
+<a href="https://youtu.be/CaCcOwJPytQ?list=PLX2gX-ftPVXU3oUFNATxGXY90AULiqnWT">
+<img src="https://user-images.githubusercontent.com/22682743/49422066-4fd1e900-f7b8-11e8-9dc7-79d91d11b798.png" width="500">
+</a>
+</p>
 
 To understand more about the working of Uncented Kalman Fitlers please visit: https://goo.gl/aoQpqE
+
+## Sample Output  
+### 1. Tennis ball
+<p align="center">
+<img src="https://user-images.githubusercontent.com/22682743/49423215-b6f19c80-f7bc-11e8-8495-ccdff645155a.gif" width="500">
+</p>
+
+Each ball is assigned unique ID in terms of color and is being tracked throughout the video feed. Even if the detection doesn't occur in some frames, Kalman filter is able to retain the ID of all objects.
+
+### 2. Vehicles in traffic analysis  
+<p align="center">
+<img src="https://user-images.githubusercontent.com/22682743/49423659-33d14600-f7be-11e8-9e20-442ed2bb975c.gif" width="500">
+</p>
+
+Our algorithm is being able to track each passing vehicle and map their respective trajectories by assigning unique colour IDs. Though Some initial glitch in one  of the car was observed but overall our algorithm has achieved pretty stabe results. 
+
+
 ## Note
 Before you run the project, make sure your system meets the following system requirements:
 1. Ubuntu 16.x (Not Ubuntu 18.x) as darknet requires g++ version 6 or less.
 2. GPU NVIDIA GTX 940 or higher. Still it may run on a very low FPS.
 3. Unfortunately, at the time of creation of this project, Y.O.L.O v3 for python was not running on windows OS. So you may check out the latest version by visting the abouve mentioned link in 1st part.
 
-
+## How to run
+1. It is highly recommended that after cloing this repository, you perform intial steps from https://goo.gl/xBGqNg
+2. Run the object_tracking.py where you'll be able to change the input video as per your choice.
+3. You can modify uncented kalman filter covariance matrices in ukf.py 
+4. Enjoy!
 
 
