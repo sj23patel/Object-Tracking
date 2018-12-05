@@ -46,10 +46,10 @@ Our algorithm is being able to track each passing vehicle and map their respecti
 Before you run the project, make sure your system meets the following system requirements:
 1. Ubuntu 16.x (Not Ubuntu 18.x) as darknet requires g++ version 6 or less.
 2. GPU NVIDIA GTX 940 or higher. Still it may run on a very low FPS.
-3. Unfortunately, at the time of creation of this project, Y.O.L.O v3 for python was not running on windows OS. So you may check out the latest version by visting the abouve mentioned link in 1st part.
+3. Unfortunately, at the time of creation of this project, Y.O.L.O v3 for python was not running on windows OS. So you may check out the latest version by visting the above mentioned link in 1st part.
 
 ## How to run
-1. It is highly recommended that after cloning this repository, you perform intial steps from https://goo.gl/xBGqNg
+1. It is highly recommended that after cloning this repository, you perform initial steps from https://goo.gl/xBGqNg
 2. Run the object_tracking.py where you'll be able to change the input video as per your choice.
 3. You can modify unscented kalman filter covariance matrices in ukf.py 
 4. Enjoy!
