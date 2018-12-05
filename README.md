@@ -24,7 +24,7 @@ For detailed information on basic kalman filters and it's working:
 </a>
 </p>
 
-To understand more about the working of Uncented Kalman Fitlers please visit: https://goo.gl/aoQpqE
+To understand more about the working of Unscented Kalman Fitlers please visit: https://goo.gl/aoQpqE
 
 ## Sample Output  
 ### 1. Tennis ball
@@ -51,7 +51,7 @@ Before you run the project, make sure your system meets the following system req
 ## How to run
 1. It is highly recommended that after cloing this repository, you perform intial steps from https://goo.gl/xBGqNg
 2. Run the object_tracking.py where you'll be able to change the input video as per your choice.
-3. You can modify uncented kalman filter covariance matrices in ukf.py 
+3. You can modify unscented kalman filter covariance matrices in ukf.py 
 4. Enjoy!
 
 
