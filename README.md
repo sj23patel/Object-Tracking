@@ -49,7 +49,7 @@ Before you run the project, make sure your system meets the following system req
 3. Unfortunately, at the time of creation of this project, Y.O.L.O v3 for python was not running on windows OS. So you may check out the latest version by visting the abouve mentioned link in 1st part.
 
 ## How to run
-1. It is highly recommended that after cloing this repository, you perform intial steps from https://goo.gl/xBGqNg
+1. It is highly recommended that after cloning this repository, you perform intial steps from https://goo.gl/xBGqNg
 2. Run the object_tracking.py where you'll be able to change the input video as per your choice.
 3. You can modify unscented kalman filter covariance matrices in ukf.py 
 4. Enjoy!
